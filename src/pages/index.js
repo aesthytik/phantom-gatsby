@@ -1,33 +1,58 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Menu from '../components/Menu';
+import ModelItem from '../components/ModelItem';
 
 const Index = () => (
   <div id="wrapper">
+    <Menu />
     <div id="main">
       <div className="inner">
         <header>
           <h1>
-            This is Phantom, a free, fully responsive site<br />
-            template designed by <a href="http://html5up.net">HTML5 UP</a>.
+            We are Tvero<br />
+            A place for 3-Models and inspiration{' '}
           </h1>
-          <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
-          </p>
+
         </header>
-        <section className="tiles">
-          <article className="style1">
-            <span className="image">
-              <img src="images/pic01.jpg" alt="" />
-            </span>
-            <a href="generic.html">
-              <h2>Magna</h2>
-              <div className="content">
-                <p>
-                  Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.
-                </p>
-              </div>
+        <div className="sketchfab-embed-wrapper">
+          <iframe
+            src="https://sketchfab.com/models/4282a27e548641159f0048cf6020c9fc/embed"
+            frameBorder="0"
+          />
+          {' '}
+          <p>
+            {' '}
+            <a
+              href="https://sketchfab.com/models/4282a27e548641159f0048cf6020c9fc?utm_medium=embed&utm_source=website&utm_campain=share-popup"
+              target="_blank"
+            >
+              Lollipop Girl
             </a>
-          </article>
+            {' '}
+            by
+            {' '}
+            <a
+              href="https://sketchfab.com/grell?utm_medium=embed&utm_source=website&utm_campain=share-popup"
+              target="_blank"
+            >
+              Grell
+            </a>
+            {' '}
+            on
+            {' '}
+            <a
+              href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campain=share-popup"
+              target="_blank"
+            >
+              Sketchfab
+            </a>
+            {' '}
+          </p>
+          {' '}
+        </div>
+        <section className="tiles">
+          <ModelItem />
           <article className="style2">
             <span className="image">
               <img src="images/pic02.jpg" alt="" />

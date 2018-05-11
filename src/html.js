@@ -23,7 +23,7 @@ module.exports = class HTML extends React.Component {
     return (
       <html lang="en" {...this.props.htmlAttributes}>
         <head>
-          <title>Phantom by HTML5 UP</title>
+          <title>Tvero</title>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 

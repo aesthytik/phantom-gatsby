@@ -7,7 +7,7 @@ const Header = () => (
 
       <a href="index.html" className="logo">
         <span className="symbol"><img src="images/logo.svg" alt="" /></span>
-        <span className="title">Phantom</span>
+        <span className="title">Tvero</span>
       </a>
 
       <nav>
