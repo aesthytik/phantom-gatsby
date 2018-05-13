@@ -5,10 +5,14 @@ const Header = () => (
   <header id="header">
     <div className="inner">
 
-      <a className="logo">
-        <span className="symbol"><img src="/images/logo.svg" alt="" /></span>
-        <span className="title"><Link to="/">TveroX</Link></span>
-      </a>
+      <h3>
+        <a className="logo">
+
+          <span className="symbol"><img src="/images/logo.svg" alt="" /></span>
+          <span className="title"><Link to="/">TveroX</Link></span>
+
+        </a>
+      </h3>
 
       <nav />
 
