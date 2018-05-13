@@ -23,7 +23,7 @@ module.exports = class HTML extends React.Component {
     return (
       <html lang="en" {...this.props.htmlAttributes}>
         <head>
-          <title>Tvero</title>
+          <title>TveroX</title>
           <meta charset="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 

@@ -1,4 +1,4 @@
-const config = require('./src/config/index.js');
+const config = require ('./src/config/index.js');
 
 module.exports = {
   siteMetadata: {
@@ -20,12 +20,20 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `y195ogw2h9x5`,
+        accessToken: `5dab91bd6deb43c6c5302fdbb54202ffa5c39e7297af2609c682c04955df561e`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-nprogress`,
       options: {
         color: config.themeColor,
         showSpinner: false,
       },
     },
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
